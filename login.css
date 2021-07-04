@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #d3daea;
+}
+.main{
+    background-color: #fbfcfe;
+    background-image: url(image11.png);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 35px;
+    padding: 15px;
+}
+h2 {
+    color: #3b325f;
+    margin-bottom: 20px;
+}
+hr {
+    display: inline-block;
+    margin: 3px;
+    width: 20px;
+    border:1px solid #f84d56;
+}
+.form{
+    text-align: center;
+    margin: 5px 10px;
+}
+.hr-p{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f84d56;
+}
+button {
+    padding: 5px;
+    margin: 15px 30px 10px;
+    width: 80%;
+    font-size: 10px;
+}
+input.name {
+    margin: 5px 0;
+    width: 85%;
+}
+.div {
+    margin: 5px 10px;
+}
+h6 {
+    text-align: start;
+    padding: 5px 10px 10px;
+    color: #3b325f;
+}
+label {
+    color: #3b325f;
+}
+.name{
+    text-align: left;
+}
+button.arrow {
+    display: block;
+    width: 25px;
+    margin: 12px 10px 10px;
+    background-color: #f84d56;
+    border: 1px solid #f84d56;
+    border-radius: 4px;
+}
+label.h6-p {
+    font-size: 11px;
+    padding: 0 40px;
+}
+input[type="checkbox"] {
+    position: absolute;
+    bottom: 155px;
+    left: 68px;
+}
+.fa-arrow-right:before {
+    content: "\f061";
+    color: white;
+}
+p.last {
+    margin: 30px 10px;
+    font-size: 15px;
+}
+
+
+
+@media screen and (min-width:688px) {
+    .main {
+        background-size: 60%;
+        background-position: center right;
+        margin: 25px;
+        padding: 20px;
+        border-radius: 25px;
+    }
+    h2 {
+        padding: 10px;
+        margin-bottom: 0;
+    }
+    .hr-p {
+        padding: 10px;
+    }
+    button {
+        margin: 5px 10px;
+        width: 25%;
+        color: #3b325f;
+        background-color: white;
+        border: 1px solid #eaf1ff;
+        border-radius: 7px;
+    }
+    .form {
+        text-align: unset;
+        margin: 20px 40px 10px 10px;
+    }
+    .div {
+        display: inline-block;
+        margin: 0 20px 0 0;
+    }
+    h6 {
+        padding: unset;
+        font-weight: 500
+    }
+    input.name {
+        background-color: #eaf1ff;
+        margin: 5px 0;
+        width: 40%;
+        height: 30px;
+        border: 2px solid #eaf1ff;
+        border-radius: 10px;
+    }
+    label.h6-p {
+        font-size: 11px;
+        display: block;
+        padding: 25px 30px;
+        width: 295px;
+    }
+    img.facebook {
+        position: absolute;
+        top: 150px;
+        left: 260px;
+    }
+    img.google {
+        position: absolute;
+        top: 150px;
+        left: 70px;
+    }
+    input[type="checkbox"] {
+        bottom: 172px;
+        left: 53px;
+    }
+    button.arrow {
+        width: 30px;
+        height: 35px;
+        margin: 0 10px 10px;
+        border-radius: 5px;
+    }
+    p.last {
+        margin: 18px 10px 30px;
+        font-size: 10px;
+    }
+    a {
+        color: #f84d56;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .main {
+        margin: 46px;
+        padding: 30px;
+    }
+    .hr-p {
+        font-size: 10px;
+    }
+    img.google {
+        position: absolute;
+        top: 173px;
+        left: 104px;
+    }
+    img.facebook {
+        position: absolute;
+        top: 173px;
+        left: 296px;
+    }
+    .div {
+        margin: 0 25px 0 0;
+    }
+    input.name{
+        width: 30%;
+    }
+    input[type="checkbox"] {
+        bottom: 175px;
+        left: 93px;
+    }
+    button{
+        width: 20%;
+    }
+    button.arrow {
+        width: 35px;
+    }
+    label.h6-p {
+        padding: 0 45px 30px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (min-width:1312px) {
+    .main {
+        background-size: 70%;
+        margin: 70px;
+        padding: 70px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .hr-p {
+        font-size: 15px;
+        margin: 20px 0;
+    }
+    button {
+        font-size: 15px;
+        width: 210px;
+        text-align: center;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    img.facebook {
+        top: 295px;
+        left: 393px;
+    }
+    img.google {
+        top: 295px;
+        left: 165px;
+    }
+    input.name {
+        width: 216px;
+        height: 35px;
+        margin: 15px 0;
+    }
+    .div {
+        margin: 0 20px 0 0;
+    }
+    h6 {
+        font-size: 15px;
+    }
+    input[type="checkbox"] {
+        bottom: 55px;
+        left: 155px;
+    }
+    label.h6-p {
+        font-size: 15px;
+        width: 388px;
+    }
+    button.arrow {
+        width: 40px;
+    }
+    p.last {
+        margin: 45px 10px 0px;
+        font-size: 13px;
+    }
+
+
+    
+}
