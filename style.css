@@ -63,14 +63,15 @@ button.arrow {
     border: 1px solid #f84d56;
     border-radius: 4px;
 }
-label.h6-p {
+.h6-p {
     font-size: 11px;
-    padding: 0 27px;
+    padding: 0 5px;
+}
+.check {
+    display: flex;
 }
 input[type="checkbox"] {
-    position: absolute;
-    bottom: 121px;
-    left: 70px;
+    margin: 0 0 0 10px;
 }
 .fa-arrow-right:before {
     content: "\f061";
@@ -126,15 +127,10 @@ p.last {
         border: 2px solid #eaf1ff;
         border-radius: 10px;
     }
-    label.h6-p {
+    .h6-p {
         font-size: 11px;
-        display: block;
-        padding: 25px;
+        padding: 0 10px;
         width: 295px;
-    }
-    input[type="checkbox"] {
-        bottom: 194px;
-        left: 53px;
     }
     button.arrow {
         width: 30px;
@@ -172,15 +168,10 @@ p.last {
     .div {
         margin: 0 25px 0 0;
     }
-    input[type="checkbox"] {
-        bottom: 175px;
-        left: 93px;
-    }
     button.arrow {
         width: 35px;
     }
-    label.h6-p {
-        padding: 30px;
+    .h6-p {
         width: 300px;
     }
 
@@ -225,11 +216,7 @@ p.last {
     h6 {
         font-size: 15px;
     }
-    input[type="checkbox"] {
-        bottom: 50px;
-        left: 155px;
-    }
-    label.h6-p {
+    .h6-p {
         font-size: 15px;
         width: 388px;
     }
@@ -240,7 +227,4 @@ p.last {
         margin: 45px 10px 0px;
         font-size: 13px;
     }
-
-
-    
 }

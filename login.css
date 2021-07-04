@@ -69,12 +69,10 @@ button.arrow {
 }
 label.h6-p {
     font-size: 11px;
-    padding: 0 40px;
+    padding: 0 10px;
 }
 input[type="checkbox"] {
-    position: absolute;
-    bottom: 155px;
-    left: 68px;
+    margin: 0 0 0 10px;
 }
 .fa-arrow-right:before {
     content: "\f061";
@@ -130,10 +128,12 @@ p.last {
         border: 2px solid #eaf1ff;
         border-radius: 10px;
     }
+    .check {
+        display: flex;
+    }
     label.h6-p {
         font-size: 11px;
-        display: block;
-        padding: 25px 30px;
+        padding: 0 10px;
         width: 295px;
     }
     img.facebook {
@@ -146,14 +146,10 @@ p.last {
         top: 150px;
         left: 70px;
     }
-    input[type="checkbox"] {
-        bottom: 172px;
-        left: 53px;
-    }
     button.arrow {
         width: 30px;
         height: 35px;
-        margin: 0 10px 10px;
+        margin: 15px 10px 10px;
         border-radius: 5px;
     }
     p.last {
@@ -189,10 +185,6 @@ p.last {
     input.name{
         width: 30%;
     }
-    input[type="checkbox"] {
-        bottom: 175px;
-        left: 93px;
-    }
     button{
         width: 20%;
     }
@@ -200,7 +192,7 @@ p.last {
         width: 35px;
     }
     label.h6-p {
-        padding: 0 45px 30px;
+        padding: 0 10px;
         width: 300px;
     }
 
@@ -244,10 +236,6 @@ p.last {
     }
     h6 {
         font-size: 15px;
-    }
-    input[type="checkbox"] {
-        bottom: 55px;
-        left: 155px;
     }
     label.h6-p {
         font-size: 15px;
