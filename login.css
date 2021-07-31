@@ -4,21 +4,20 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 35px;
     background-color: #d3daea;
 }
 .main{
     background-color: #fbfcfe;
-    background-image: url(image11.png);
-    background-size: contain;
-    background-position: top;
-    background-repeat: no-repeat;
-    margin: 35px;
-    padding: 15px;
+    margin: 60px 20px;
+    padding: 25px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(165, 152, 152), -5px -5px 15px rgb(165, 152, 152) ;
 }
 h2 {
     color: #3b325f;
-    margin-bottom: 20px;
 }
 hr {
     display: inline-block;
@@ -37,16 +36,31 @@ hr {
 }
 button {
     padding: 5px;
-    margin: 15px 30px 10px;
+    margin: 5px 30px;
     width: 80%;
     font-size: 10px;
+    background-color: #fab9bc;
+    border: 1px solid #fab9bc;
+    border-radius: 4px;
+    color: #3b325f;
+}
+img.google {
+    position: absolute;
+    top: 150px;
+    left: 95px;
+}
+img.facebook {
+    position: absolute;
+    top: 182px;
+    left: 96px;
 }
 input.name {
-    margin: 5px 0;
-    width: 85%;
-}
-.div {
-    margin: 5px 10px;
+    background-color: #fab9bc;
+    color: #3b325f;
+    border: 1px solid #3b325f;
+    border-radius: 4px;
+    margin: 0 19px;
+    width: 88%;
 }
 h6 {
     text-align: start;
@@ -61,38 +75,64 @@ label {
 }
 button.arrow {
     display: block;
-    width: 25px;
-    margin: 12px 10px 10px;
+    width: 35px;
+    height: 40px;
+    margin: 20px 5px 5px 5px;
     background-color: #f84d56;
     border: 1px solid #f84d56;
     border-radius: 4px;
 }
-label.h6-p {
-    font-size: 11px;
-    padding: 0 10px;
+.h6-p {
+    font-size: 8px;
+    padding: 13px 5px;
+    color: #3b325f;
+}
+.check {
+    display: flex;
 }
 input[type="checkbox"] {
-    margin: 0 0 0 10px;
-}
-.fa-arrow-right:before {
-    content: "\f061";
-    color: white;
+    margin: 15px 0 0 10px;
 }
 p.last {
-    margin: 30px 10px;
-    font-size: 15px;
+    margin-top: 25px;
+    font-size: 8px;
+    color: #3b325f;
+}
+a{
+    color: #f84d56;
+}
+img.img-arrow {
+    width: 15px;
+    color: white;
+}
+button.arrow:hover{
+    background-color: white;
+    color: #f84d56;
 }
 
-
-
-@media screen and (min-width:688px) {
+@media screen and (min-width:640px) {
     .main {
+        background-image: url(./image11.png);
+        background-repeat: no-repeat;
         background-size: 60%;
         background-position: center right;
         margin: 25px;
         padding: 20px;
         border-radius: 25px;
     }
+    br{
+        display: unset;
+    }
+    img.google {
+    position: absolute;
+    top: 164px;
+    left: 75px;
+    }
+    img.facebook {
+    position: absolute;
+    top: 164px;
+    left: 290px;
+}
     h2 {
         padding: 10px;
         margin-bottom: 0;
@@ -101,16 +141,16 @@ p.last {
         padding: 10px;
     }
     button {
-        margin: 5px 10px;
-        width: 25%;
-        color: #3b325f;
-        background-color: white;
+        background-color: #fab9bc;
+        margin: 5px 10px 0;
+        width: 35%;
+        height: 30px;
         border: 1px solid #eaf1ff;
         border-radius: 7px;
     }
     .form {
         text-align: unset;
-        margin: 20px 40px 10px 10px;
+        margin: 20px 10px 0;
     }
     .div {
         display: inline-block;
@@ -121,86 +161,127 @@ p.last {
         font-weight: 500
     }
     input.name {
-        background-color: #eaf1ff;
+        background-color: #fab9bc;
         margin: 5px 0;
-        width: 40%;
+        width: 37%;
         height: 30px;
         border: 2px solid #eaf1ff;
         border-radius: 10px;
+        text-indent: 15px;
     }
-    .check {
-        display: flex;
-    }
-    label.h6-p {
-        font-size: 11px;
-        padding: 0 10px;
-        width: 295px;
-    }
-    img.facebook {
-        position: absolute;
-        top: 150px;
-        left: 260px;
-    }
-    img.google {
-        position: absolute;
-        top: 150px;
-        left: 70px;
+    .h6-p {
+        font-size: 9px;
+        padding: 10px;
     }
     button.arrow {
-        width: 30px;
-        height: 35px;
-        margin: 15px 10px 10px;
+        width: 40px;
+        height: 40px;
+        margin: 25px 10px 0;
         border-radius: 5px;
     }
+    button.arrow:hover{
+        background-color: white;
+        color: #f84d56;
+    }
     p.last {
-        margin: 18px 10px 30px;
-        font-size: 10px;
+        margin: 18px 10px 10px;
+        font-size: 9px;
     }
     a {
         color: #f84d56;
     }
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width: 768px)  {
+    .main{
+        background-size: 40%;
+    }
+    button{
+        width: 36%;
+        margin: 5px 22px 0 10px;
+    }
+    img.google {
+        top: 165px;
+        left: 102px;
+    }
+    img.facebook {
+        top: 165px;
+        left: 375px;
+    }
+    h6 {
+        margin-top: 10px;
+    }
+    button.arrow {
+        width: 50px;
+        height: 55px;
+    }
+    button.arrow:hover{
+        background-color: white;
+        color: #f84d56;
+    }    
+    p.last {
+        margin: 28px 10px 10px;
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width:924px) {
     .main {
         margin: 46px;
         padding: 30px;
     }
     .hr-p {
-        font-size: 10px;
+        font-size: 13px;
     }
     img.google {
-        position: absolute;
-        top: 173px;
-        left: 104px;
+        top: 182px;
+        left: 150px;
     }
     img.facebook {
-        position: absolute;
-        top: 173px;
-        left: 296px;
+        top: 182px;
+        left: 455px;
+    }
+    h6{
+        font-size: 12px;
     }
     .div {
-        margin: 0 25px 0 0;
+        margin: 0 30px 0 0;
     }
-    input.name{
-        width: 30%;
+    button {
+        margin: 5px 20px 0 10px;
     }
-    button{
-        width: 20%;
-    }
-    button.arrow {
-        width: 35px;
-    }
-    label.h6-p {
-        padding: 0 10px;
+    .h6-p {
+        font-size: 9.5px;
         width: 300px;
     }
+    p.last {
+        font-size: 9.5px;
+    }
+    button.arrow {
+        width: 50px;
+        height: 60px;
+    }
+
 
 }
 
-@media screen and (min-width:1312px) {
+@media screen and (min-width:1366px) {
+.main{
+    background-size: 50%;
+}
+img.google {
+    top: 182px;
+    left: 218px;
+}
+    img.facebook {
+        top: 182px;
+        left: 680px;
+    }
+}
+
+@media screen and (min-width:1440px) {
     .main {
-        background-size: 70%;
+        background-size: 50%;
         margin: 70px;
         padding: 70px;
     }
@@ -209,46 +290,47 @@ p.last {
     }
     .hr-p {
         font-size: 15px;
-        margin: 20px 0;
+        margin: 20px 0 0;
     }
     button {
         font-size: 15px;
-        width: 210px;
+        width: 32%;
         text-align: center;
         height: 40px;
-        margin-bottom: 20px;
     }
     img.facebook {
-        top: 295px;
-        left: 393px;
+        top: 277px;
+        left: 629px;
     }
     img.google {
-        top: 295px;
-        left: 165px;
+        top: 278px;
+        left: 235px;
     }
     input.name {
-        width: 216px;
-        height: 35px;
-        margin: 15px 0;
+        width: 33%;
+        height: 40px;
+        margin: 15px 0 0;
     }
-    .div {
-        margin: 0 20px 0 0;
+    input[type="checkbox"] {
+        margin: 20px 0 0 10px;
     }
     h6 {
         font-size: 15px;
     }
-    label.h6-p {
-        font-size: 15px;
+    .h6-p {
+        padding: 15px;
+        font-size: 13px;
         width: 388px;
     }
     button.arrow {
-        width: 40px;
+        width: 60px;
+        height: 75px;
     }
     p.last {
         margin: 45px 10px 0px;
         font-size: 13px;
     }
-
-
-    
+    img.img-arrow {
+        width: 25px;
+    }
 }
