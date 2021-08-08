@@ -47,25 +47,25 @@ button {
     margin: 5px 30px;
     width: 80%;
     font-size: 10px;
-    background-color: #f84d56;
-    border: 1px solid #f84d56;
-    border-radius: 4px;
-    color: white;
+    background-color: #fab9bc;
+    border: 2px solid #3b325f;
+    border-radius: 5px;
+    color: #3b325f;
 }
 img.google {
     position: absolute;
-    top: 135px;
+    top: 137px;
     left: 95px;
 }
 img.facebook {
     position: absolute;
-    top: 167px;
+    top: 172px;
     left: 96px;
 }
 input.name {
     background-color: #fab9bc;
-    border: 1px solid #3b325f;
-    border-radius: 4px;
+    border: 2px solid #3b325f;
+    border-radius: 5px;
     margin: 0 30px;
     width: 80%;
 }
@@ -88,8 +88,8 @@ button.arrow {
     height: 40px;
     margin: 15px 5px 5px 5px;
     background-color: #f84d56;
-    border: 1px solid #f84d56;
-    border-radius: 4px;
+    border: 1px solid #3b325f;
+    border-radius: 5px;
 }
 .h6-p {
     font-size: 7px;
@@ -116,6 +116,7 @@ img.img-arrow {
 button.arrow:hover{
     background-color: white;
     color: #f84d56;
+    border: 1px solid #f84d56;
 }
 
 @media screen and (min-width:640px) {
@@ -154,7 +155,7 @@ button.arrow:hover{
         margin: 5px 10px 0;
         width: 28%;
         height: 30px;
-        border: 1px solid #eaf1ff;
+        border: 2px solid #3b325f;
         border-radius: 7px;
     }
     .form {
@@ -171,12 +172,12 @@ button.arrow:hover{
     }
     input.name {
         background-color: #fab9bc;
-        color: white;
+        color: #3b325f;
         margin: 5px 0;
         width: 100%;
         height: 30px;
-        border: 2px solid #eaf1ff;
-        border-radius: 10px;
+        border: 2px solid #3b325f;
+        border-radius: 7px;
         text-indent: 15px;
     }
     .h6-p {
@@ -188,7 +189,7 @@ button.arrow:hover{
         width: 40px;
         height: 40px;
         margin: 10px 10px 0;
-        border-radius: 5px;
+        border-radius: 7px;
     }
     p.last {
         margin: 18px 10px 30px;
@@ -201,7 +202,7 @@ button.arrow:hover{
 
 @media screen and (min-width: 768px)  {
     button{
-        width: 23%;
+        width: 25%;
         margin: 5px 22px 0 10px;
     }
     img.google {
@@ -210,7 +211,10 @@ button.arrow:hover{
     }
     img.facebook {
         top: 175px;
-        left: 259px;
+        left: 275px;
+    }
+    input.name{
+        width: 171px;
     }
     .div {
         margin: 0 30px 0 0;
@@ -219,8 +223,8 @@ button.arrow:hover{
         margin-top: 10px;
     }
     button.arrow {
-        width: 45px;
-        height: 45px;
+        width: 50px;
+        height: 55px;
     }
 }
 
@@ -234,14 +238,17 @@ button.arrow:hover{
     }
     img.google {
         top: 192px;
-        left: 105px;
+        left: 115px;
     }
     img.facebook {
         top: 192px;
-        left: 327px;
+        left: 365px;
     }
     h6{
         font-size: 12px;
+    }
+    input.name{
+        width: 218px;
     }
     .div {
         margin: 0 30px 0 0;
@@ -250,7 +257,8 @@ button.arrow:hover{
     margin: 5px 20px 0 10px;
 }
     button.arrow {
-        width: 35px;
+        width: 55px;
+        height: 60px;
     }
     .h6-p {
         font-size: 9.5px;
@@ -259,23 +267,10 @@ button.arrow:hover{
     p.last {
         font-size: 9.5px;
     }
-    button.arrow {
-        width: 45px;
-        height: 50px;
-    }
 
 
 }
 
-@media screen and (min-width:1366px) {
-.main{
-    background-size: 50%;
-}
-    img.facebook {
-        top: 192px;
-        left: 437px;
-    }
-}
 
 @media screen and (min-width:1440px) {
     .main {
@@ -292,20 +287,20 @@ button.arrow:hover{
     }
     button {
         font-size: 15px;
-        width: 220px;
+        width: 275px;
         text-align: center;
         height: 40px;
     }
     img.facebook {
-        top: 286px;
-        left: 417px;
+        top: 285px;
+        left: 485px;
     }
     img.google {
-        top: 286px;
-        left: 165px;
+        top: 285px;
+        left: 180px;
     }
     input.name {
-        width: 216px;
+        width: 276px;
         height: 40px;
         margin: 15px 0 0;
     }
@@ -330,5 +325,11 @@ button.arrow:hover{
     }
     img.img-arrow {
         width: 25px;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .main{
+        background-size: 38%;
     }
 }
